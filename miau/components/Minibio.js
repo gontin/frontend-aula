@@ -1,7 +1,9 @@
-export default function Minibio () {
+import Profile from "./Profile"
+export default function Minibio (profile) {
     return(
-        <div className="w-full bg-slate-500">
-            <h1>miau</h1>
+        <div className="flex flex-col items-center">
+            <Profile/>
+            <h3>Gosto de bolo de morango</h3>
         </div>
     )
 }
